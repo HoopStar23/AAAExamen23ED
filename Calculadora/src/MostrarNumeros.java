@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class MostrarNumeros {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
 
 
         System.out.println("Por favor, ingresa el primer número:");
@@ -30,7 +28,6 @@ public class MostrarNumeros {
         scanner.close();
     }
 
-<<<<<<< HEAD
     public static double sumar(double a, double b) { 
 
         return a + b; 
@@ -44,8 +41,8 @@ public class MostrarNumeros {
 
     public static double potencia(double base, double exponente) { 
 
-        return Math.pow(base, exponente); 
-=======
+        return Math.pow(base, exponente);
+
     public static double restar(double a, double b) { 
 
         return a - b; 
@@ -76,8 +73,7 @@ public class MostrarNumeros {
 
             throw new IllegalArgumentException("No se puede calcular la raíz cuadrada de un número negativo"); 
 
-        } 
->>>>>>> restadores
+        }
 
     }
 }
